@@ -1,0 +1,29 @@
+{
+  "name": "confession",
+  "version": "1.0.0",
+  "description": "A cute and interactive romantic webpage made with pure **HTML, CSS, and JavaScript** 💕  \r It features beautiful animations, sound effects, and playful button behavior to express your feelings in a unique way.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tushar-6969/Confession.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tushar-6969/Confession/issues"
+  },
+  "homepage": "https://github.com/Tushar-6969/Confession#readme",
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
