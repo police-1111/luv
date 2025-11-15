@@ -56,7 +56,7 @@ passport.use(
         "900088000170-9iql224cug0sbrjonf1sp54n2qambscr.apps.googleusercontent.com",
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
       callbackURL: "https://luv-xw1f.onrender.com/auth/google/callback",
-,
+
     },
     (accessToken, refreshToken, profile, done) => {
       const email = profile.emails?.[0]?.value;
@@ -141,4 +141,5 @@ app.get("/home.html", ensureAuth, (req, res) => {
 // =======================================
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+
 
